@@ -1,0 +1,14 @@
+Add banners to pages
+-Create empty banner
+-Generate text based on settings name
+
+Create new branch and try to create a model 108 version
+-Will need to create settings pages
+-Dont worry about handling serial comm
+--If you run out of stuff to do, create a model 108 serial handler that inherits from the serial handler base
+--Make sure to override ParseData with your version, you can hard code the functions, attempt to use the function pointers or start with the hard code version and then convert to the pointers
+---override void ParseData(QByteArray data)
+
+Work on changing text size based on ui size
+
+Text me if you run out of things to do or want something else
