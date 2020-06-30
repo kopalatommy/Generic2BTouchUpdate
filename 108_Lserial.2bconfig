@@ -1,0 +1,27 @@
+A,COM3
+B,2400
+C
+#Avg Time
+D,A,Setting
+#Zero Offset
+D,Z,Setting
+#Slope Calibration
+D,S,Setting
+#Adaptive Difference
+D,B,Setting
+#Adaptive Percent
+D,L,Setting
+#Adaptive Long
+D,K,Setting
+#Adaptive Short
+D,M,Setting
+#Set Relay OFF Ozone Level
+D,G,Setting
+#Set Relay ON Ozone Level
+D,J,Setting
+#Set Ozone Units
+D,U,Setting
+#Set Temp Units
+D,C,Setting
+#Set Press Units
+D,O,Setting

@@ -1,0 +1,29 @@
+A,106 L
+B,106_L_settings.txt
+<S
+#Setting page
+#Start with type
+#Type 3 - Settings Menu, 2B Touch assumes that this is the first settings page created, WILL BREAK IF NOT FIRST
+3,106-L Settings
+#Type 0 - ComboBox settings
+#FormType,FormName,SettMarker,SetType,PossibleValues
+
+#Type 1 - Generic Settings
+#FormType,FormName,NumSettings,SettingMarkers,SettingTypes,SettingNames,Mins,Maxs
+1,Adaptive Filter,4,b,i,k,m,0,0,0,0,Short,Long,Diff,Percent,1,6,0,0,5,45,10,50
+0,Avg Time,a,2 sec, ,10 sec,1 min, 5 min, 1 hour
+1,Zero/Slope Claibration,2,z,s,0,0,Zero Cal.,Slope Cal,0,0,1,1
+1,Ozone relay Level,2,g,j,0,0,Ozone On,Ozone Off,0,0,,1000,1000
+
+#Type 2 - Date Time
+#FormType,FormName,SetMarkers
+
+<D
+#Defaults to .csv
+A,.csv
+B,Ozone,Cell Temp,Cell Pressure,Flow Rate, Photodiode Voltage
+C,0,0,0,0,0
+D,1,0,0,0,0
+<C
+A,108_LSerial.2bconfig,1
+<E
