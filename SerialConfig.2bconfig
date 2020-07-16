@@ -1,6 +1,0 @@
-#A - Create new serial data parser object
-#B - Set Port name
-#C - Set baud rate
-A
-B,COM4
-C,19200
